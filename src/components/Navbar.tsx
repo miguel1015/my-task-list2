@@ -10,7 +10,7 @@ export function Navbar() {
             Home
           </Nav.Link>
           <Nav.Link to="/Contact" as={NavLink}>
-            Contac
+            Task
           </Nav.Link>
           <Nav.Link to="/about" as={NavLink}>
             About

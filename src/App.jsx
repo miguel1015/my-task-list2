@@ -5,13 +5,9 @@ import  {Contact}  from "./pages/Contact"
 import { About } from "./pages/About"
 import { Navbar } from "./components/Navbar"
 import { ShoppingCartProvider } from "./context/ShoppingCartContext"
-import  Bill  from "./components/Bill"
-import  Brenda  from "./components/brenda"
-import  Dennis  from "./components/dennis"
-import  Mark  from "./components/mark"
-import  Steve  from "./components/steve"
 
 import "./estilos.css"
+import TaskItem from "./components/Task"
 // import { Suspense } from "react"
 
 
@@ -22,14 +18,8 @@ function App() {
       <Container className="container">
         <Routes>
           <Route path="/Home" element={<Home />} />
-          <Route path="/store" element={<Contact />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/bill" element={<Bill/>} />
-          <Route path="/brenda" element={<Brenda />} />
-          <Route path="/dennis" element={<Dennis />} />
-          <Route path="/mark" element={<Mark />} />
-          <Route path="/steve" element={<Steve />} />
-          
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />          
         </Routes>
       </Container>
 

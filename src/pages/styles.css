@@ -1,3 +1,110 @@
+.container-todoapp{
+    margin: auto;
+    width: 20%;
+    border: 1px solid rgb(24, 25, 26);
+    background-color: rgb(41, 145, 206);
+    padding: 20px;
+    height: 500px; 
+  }
+
+  todo-app{
+    padding: 10px;
+  }*/ 
+
+   .placeholder{
+    margin: 10px;
+    height: 30px;
+    padding: 10px;
+    font-size: 1.5em;
+  }  
+
+
+
+
+   input::placeholder{
+    font-size: 1.1em;
+  } 
+
+
+   .add-btn-delete{
+    float: right;
+    height: 10px;
+    background-color: red; 
+    color: red; 
+   }  
+
+  .add-btn-delete:hover{
+    transform: scale(1.2);
+  } 
+
+
+  .TaskList{
+
+     border: 1px solid rgb(10, 9, 9); 
+     background-color: #fff;
+    padding: 30px; 
+  }
+   
+  .add-btn-edit{
+    float: right;
+    display: flex;
+    height: 10px;
+    background-color: rgb(33, 37, 37); 
+    color: blue; 
+  } 
+
+
+  .add-btn-edit:hover{
+    transform: scale(1.2);
+  }
+
+  .container-final{
+    font-size: 20px;
+    padding: 10%;
+  }
+
+
+  .button-clear{
+    float: right;
+    background-color: red;
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    top: 50%; left: 51%;
+  }
+
+  .button-clear:hover{
+    transform: scale(1.2);
+  }
+
+
+  .cruz{
+    color: rgb(26, 26, 27);
+    background-color: rgb(241, 244, 245);
+  } */
+
+  .description{
+    float: right;
+     background-color: red; 
+    color: rgb(17, 16, 16);
+  }
+
+  .description:hover{
+    transform: scale(1.2);
+  }
+
+
+  .boton-description{
+    padding: 1.1%;
+    color: rgb(248, 10, 10);
+  } 
+
+  .you-have{
+    top: -20px;
+    position: absolute;
+    top: 45%; left: 44%;
+  }
+
 h1{
     text-align: center;
     color: aliceblue;
@@ -59,4 +166,14 @@ h1{
 
 .parrafo{
     color: aliceblue;
+}
+
+.boton-inicio{
+  position: absolute;
+    top: 60%; left: 45%;
+}
+
+.boton-inicio-about{
+  position: absolute;
+    top: 80%; left: 45%;
 }
